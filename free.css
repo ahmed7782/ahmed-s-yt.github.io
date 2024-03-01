@@ -1,0 +1,66 @@
+ol{
+    align-items: center;
+ list-style: none;
+ display: flex;
+ justify-content: space-around;
+ background-color: bisque;
+}
+a {
+    text-decoration: none;
+    color: black;
+ 
+}
+a:hover{color: brown;
+}
+
+
+main{display :flex;
+    justify-content: space-around;}
+    
+
+
+    .click{
+
+
+        border-style: dashed;
+        margin-top: 1em;
+        border-color: aqua;
+        background-color: rgb(163, 80, 80);
+        border-radius: 10%;
+        border-width: 2px;
+        font-size: larger;
+        width: 10em;
+        height: 3em;
+        animation-name: animation;
+        margin-bottom: 1em;
+        box-shadow: 10px 10px 15px gray;
+        animation-duration: 6s;
+      animation-iteration-count: infinite;
+        transform: translatex(200px) translateY(-20px);
+        
+        
+        }
+        @keyframes animation{
+   
+         
+             0%{transform:translateX(300px) translateX(2000px);} 
+             50%{transform:translateX(200px) translateX(-200px);}
+             100%{transform:translateX(200px)translateX(-200px);}
+         
+         }
+         
+         .fa-square-instagram{font-size: 50px;
+        text-decoration: none;
+        align-items: center;
+        list-style: none;
+    }
+    .fa-facebook{font-size: 50px;
+        text-decoration: none;
+        align-items: center;
+        list-style: none;
+    display: flex;}
+ .fa-facebook-messenger{font-size: 50px;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+display: flex;}}
